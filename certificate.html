@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certificates</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 5px;
+        }
+        body{
+        background:lightskyblue;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        }
+        .wrapper {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        color: black;
+        }
+        .maincontent{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            color: black;
+        }
+        .content a {
+            display: inline-block;
+            background: crimson;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 30px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: 2px solid crimson;
+            transition: all 0.3s ease;
+            text-decoration: none;
+          }
+          .content a:hover{
+            display: inline-block;
+            background: #fff;
+            color: crimson;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 30px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: 2px solid crimson;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        span{
+        color: crimson;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul li{
+        list-style: none;
+        }
+        button{
+        background-color: black;
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        width: 600px;
+        }
+
+        button:hover{
+            background-color: white;
+            color: red;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 600px;
+        }
+        @media (max-width:500px) {
+            body{
+                background:black;
+                width: 100%;
+                height: 100%;
+                }
+            .wrapper {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 18px;
+                color: #fff;
+                }
+                .maincontent{
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 15px;
+                    color: #fff;
+                }
+                .content a {
+                    display: inline-block;
+                    background: crimson;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding: 10px 30px;
+                    margin-top: 20px;
+                    border-radius: 6px;
+                    border: 2px solid crimson;
+                    transition: all 0.3s ease;
+                    text-decoration: none;
+                  }
+                  .content a:hover{
+                    display: inline-block;
+                    background: #fff;
+                    color: crimson;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding: 8px 27px;
+                    margin-top: 18px;
+                    border-radius: 6px;
+                    border: 2px solid crimson;
+                    transition: all 0.3s ease;
+                    text-decoration: none;
+                }
+                span{
+                color: crimson;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                button{
+                    background-color: gray;
+                    color: #fff;
+                    font-size: 15px;
+                    font-family: 'Times New Roman', Times, serif;
+                    width: 250px;
+                    }
+            
+                    button:hover{
+                        background-color: white;
+                        color: red;
+                        font-size: 15px;
+                        font-family: 'Times New Roman', Times, serif;
+                        width: 250px;
+                    }
+
+        }
+
+
+        @media (max-width:690px) {
+            body{
+                
+                    background: black;
+                    width: 100%;
+                    height: 100%;
+                    
+            }
+            .wrapper {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 19px;
+                color: #fff;
+                }
+                .maincontent{
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 15px;
+                    color: #fff;
+                }
+                .content a {
+                    display: inline-block;
+                    background: crimson;
+                    color: #fff;
+                    font-size: 25px;
+                    font-weight: 500;
+                    padding: 10px 30px;
+                    margin-top: 20px;
+                    border-radius: 6px;
+                    border: 2px solid crimson;
+                    transition: all 0.3s ease;
+                    text-decoration: none;
+                  }
+                  .content a:hover{
+                    display: inline-block;
+                    background: #fff;
+                    color: crimson;
+                    font-size: 25px;
+                    font-weight: 500;
+                    padding: 10px 30px;
+                    margin-top: 20px;
+                    border-radius: 6px;
+                    border: 2px solid crimson;
+                    transition: all 0.3s ease;
+                    text-decoration: none;
+                }
+                span{
+                color: crimson;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+          
+                button{
+                    background-color: gray;
+                    color: #fff;
+                    font-size: 15px;
+                    font-family: 'Times New Roman', Times, serif;
+                    width: 250px;
+                    }
+            
+                    button:hover{
+                        background-color: white;
+                        color: red;
+                        font-size: 15px;
+                        font-family: 'Times New Roman', Times, serif;
+                        width: 250px;
+                    }
+
+        }
+        @media (max-width:1280px){
+        body{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        }
+        }
+    </style>
+    <script>
+        function closeMe(){
+        window.opener=self;
+        window.close();
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        Download My Certificates from Here -->
+    </div>
+    <div class="maincontent">
+        I have started learning now from <span>CodeChef</span> 
+    <br>
+    It is a trustable Platform from where you can learn <br> many coding languages like for :
+    <ul>
+        <li>Game Development</li>
+        <li>Web Development</li>
+        <li>App Development</li>
+    </ul>
+    </div>
+    <div class="content">
+        <a href="Learn C.pdf" target="_blank" download>'C' Certificate</a>
+        <a href="Learn Python.pdf" target="_blank" download>'Python' Certificate</a>
+        <a href="Learn Java.pdf" target="_blank" download>'Java' Certificate</a>
+    </div>
+<button type="button" onclick="closeMe()">Click Here To Close This Window</button>
+</body>
+</html>
